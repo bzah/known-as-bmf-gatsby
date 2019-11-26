@@ -31,7 +31,7 @@ const test = (a, b) => console.log(a, b);
 // déclaration d'une fonction anonyme ayant n paramètres disponibles dans la collection "args"
 const test = (...args) => console.log(...args);
 
-//déclaration d'une fonction anonyme ayant deux paramètres numériques et retournant leur somme
+// déclaration d'une fonction anonyme ayant deux paramètres numériques et retournant leur somme
 const add = (a, b) => a + b;
 // équivalent a
 const add = (a, b) => {
