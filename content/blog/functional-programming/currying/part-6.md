@@ -35,4 +35,4 @@ Ici, la première version a une utilité très limitée, car elle permet d'appli
 const divideByTwo = curriedMap2(i => i / 2);
 ```
 
-La règle générale est de mettre la valeur a transformer / manipuler en dernier dans la liste de paramètres.
+La règle générale est de mettre la valeur à transformer / manipuler en dernier dans la liste de paramètres.
