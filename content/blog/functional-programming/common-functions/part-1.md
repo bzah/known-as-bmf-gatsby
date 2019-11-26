@@ -8,49 +8,49 @@ Une des choses très intimidante quand on débute dans la programmation fonction
 
 Voici une liste de fonctions classiques et une implémentation naïve. Certaines ont déjà une implémentation en JavaScript standard, mais il est très utile d'en créer une version fonctionnelle pour la suite.
 
-- `identity` une fonction qui prends un argument et le retourne tel quel. parfois appelé `id`.
+- `identity` une fonction qui prends un argument et le retourne tel quel. parfois appelée `id`.
 
 ```js
 // a -> a
 const identity = x => x;
 ```
 
-- `always` une fonction qui prends un argument et retourne une fonction qui retournera toujours cette valeur. Parfois appelé `constant`.
+- `always` une fonction qui prends un argument et retourne une fonction qui retournera toujours cette valeur. Parfois appelée `constant`.
 
 ```js
 // a -> () -> a
 const always = x => () => x;
 ```
 
-- `map` applique une fonction de transformation a chaque élément d'une collection. Parfois appelé `select`.
+- `map` applique une fonction de transformation a chaque élément d'une collection. Parfois appelée `select`.
 
 ```js
 // (a -> b) -> a[] -> b[]
 const map = mapFn => list => list.map(mapFn);
 ```
 
-- `filter` filtre une collection avec un prédicat. Parfois appelé `where`.
+- `filter` filtre une collection avec un prédicat. Parfois appelée `where`.
 
 ```js
 // (a -> Boolean) -> a[] -> a[]
 const filter = filterFn => list => list.filter(filterFn);
 ```
 
-- `find` trouve la première valeur dans collection qui satisfait un prédicat. Parfois appelé `first`.
+- `find` trouve la première valeur dans collection qui satisfait un prédicat. Parfois appelée `first`.
 
 ```js
 // (a -> Boolean) -> a[] -> a
 const find = findFn => list => list.find(findFn);
 ```
 
-- `any` vérifie si au moins un des élément d'une collection satisfais un prédicat. Parfois appelé `some`.
+- `any` vérifie si au moins un des élément d'une collection satisfais un prédicat. Parfois appelée `some`.
 
 ```js
 // (a -> Boolean) -> a[] -> Boolean
 const any = anyFn => list => list.some(anyFn);
 ```
 
-- `all` vérifie si tous les éléments d'une collection satisfont un prédicat. Parfois appelé `every`.
+- `all` vérifie si tous les éléments d'une collection satisfont un prédicat. Parfois appelée `every`.
 
 ```js
 // (a -> Boolean) -> a[] -> Boolean
