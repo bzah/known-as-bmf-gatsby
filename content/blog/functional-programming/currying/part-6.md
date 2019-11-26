@@ -28,7 +28,7 @@ const curriedMap2 = curry(map2);
 
 Vous pouvez voir ici que le premier paramètre "pré-remplissable" change en fonction de la signature de base, ce qui impacte énormément l'utilité et l'utilisation de la version curriée.
 
-Ici, la première version a un utilité très limitée, car elle permet d'appliquer plusieurs transformations sur la même liste alors que la seconde version permet d'appliquer une transformation donnée sur plusieurs listes.
+Ici, la première version a une utilité très limitée, car elle permet d'appliquer plusieurs transformations sur la même liste alors que la seconde version permet d'appliquer une transformation donnée sur plusieurs listes.
 
 ```js
 // Number[] -> Number[]
