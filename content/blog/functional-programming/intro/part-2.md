@@ -27,7 +27,7 @@ Ce sont les techniques _superficielles_ qui sont le plus souvent utilisées, il 
 const user = { tri: 'JAV', address: { street: 'rue du moulin' } };
 const userCopy = { ...user, tri: 'FOO' };
 // userCopy = { tri: 'FOO', address: { street: 'rue du moulin' }}
-// ici, les propriétés address de user et userCopy pointent toujours
+// ici, la propriété "address" de user et userCopy pointe toujours
 // vers le même objet en mémoire
 ```
 
