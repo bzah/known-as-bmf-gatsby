@@ -33,7 +33,7 @@ const userCopy = { ...user, tri: 'FOO' };
 
 ## Pureté / Idempotence
 
-Une fonction pure est une fonction qui remplis les critères suivants :
+Une fonction pure est une fonction qui remplit les critères suivants :
 
 - Pour les mêmes valeurs d'entrée, elle retournera toujours le même résultat
   - pas de dépendance a des variables globales ou non locales
